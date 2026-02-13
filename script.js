@@ -1,7 +1,7 @@
 // ============= GET CANVAS BY ID.
 
-let canvas = document.getElementById("myCanvas");
-let context = canvas.getContext("2d");
+// let canvas = document.getElementById("myCanvas");
+// let context = canvas.getContext("2d");
 
 // ============= RECTANGLE CODE FILL WITH COLOR
 
@@ -65,7 +65,20 @@ let context = canvas.getContext("2d");
 // ============= TEXT DECORATION.
 
 // context.font = "90px Arial";
-// context.fillText("Aasim Gaur", 50, 100);          // text normal 
+// context.fillText("Aasim Gaur", 50, 100);          // text normal
 // context.strokeText("Aasim Gaur", 50, 100);        // text hollow
 
-// ============= .
+// ============= IMAGE PROPERTIES IN CANVAS.
+
+window.onload = function () {
+  let canvas = document.getElementById("myCanvas");
+  let context = canvas.getContext("2d");
+
+  let img = new Image();
+
+  img.src = "img.jpg";
+
+  img.onload = function () {
+    context.drawImage(img, 50, 50, 200, 200);
+  };
+};
