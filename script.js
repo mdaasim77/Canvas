@@ -82,3 +82,4 @@ window.onload = function () {
     context.drawImage(img, 50, 50, 200, 200);
   };
 };
+
