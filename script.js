@@ -54,10 +54,18 @@ let context = canvas.getContext("2d");
 
 // ============= LINEAR GRADIENT COLOR.
 
-let lg = context.createLinearGradient(0, 0, 200, 0);
+// let lg = context.createLinearGradient(0, 0, 200, 0);
 
-lg.addColorStop(0, "red");
-lg.addColorStop(1, "blue");
+// lg.addColorStop(0, "red");
+// lg.addColorStop(1, "blue");
 
-context.fillStyle = lg;
-context.fillRect(50, 50, 200, 100 );
+// context.fillStyle = lg;
+// context.fillRect(50, 50, 200, 100);
+
+// ============= TEXT DECORATION.
+
+// context.font = "90px Arial";
+// context.fillText("Aasim Gaur", 50, 100);          // text normal 
+// context.strokeText("Aasim Gaur", 50, 100);        // text hollow
+
+// ============= .
