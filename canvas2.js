@@ -13,4 +13,4 @@ ctx.strokeStyle = gradient;
 ctx.lineWidth = 5;
 ctx.strokeRect(10, 10, 200, 200);
 
-// ========== GIVE RECTANGLE BORDER LINEAR GRADIENT.
+========== GIVE RECTANGLE BORDER LINEAR GRADIENT.
